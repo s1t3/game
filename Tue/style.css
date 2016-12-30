@@ -1,0 +1,137 @@
+/* 
+   Image Map Style Sheet
+   CSS- T3
+   Tue Le
+   Date:   2/02/15
+*/
+
+@font-face {
+   font-family: 'NobileRegular';
+   src: url('nobile-webfont.eot');
+   src: local('?'), 
+        url('nobile-webfont.woff') format('woff'), 
+        url('nobile-webfont.ttf') format('truetype'), 
+        url('nobile-webfont.svg#webfontsKo9tqe9') format('svg');
+}
+
+/* Body styles */
+
+body {
+   background-color: #BDBDBD;
+ 
+   font-family: NobileRegular, Verdana, Geneva, sans-serif;
+   line-height: 1.3em;
+   position: relative;
+   color:#29088A;
+   width: 98%;
+   min-width: 1000px;
+   max-width: 1400px;
+}
+
+nav ul {
+   background-color: #A9D0F5;
+   width: 100px;
+   line-height: 3.5em;
+   list-style-type: none;
+   padding-left: 0em;
+   text-indent: 5px;
+}
+
+
+
+nav ul li:hover {
+   background-color: #0B3B17;
+}
+
+nav ul li a {
+   color: #29088A;
+   text-decoration: none;
+}
+
+nav ul li a:hover {
+   color: yellow;
+}
+
+
+figure {
+   
+   float: right;
+   width: 700px;
+   
+}
+
+figure div {
+   overflow: auto;
+   white-space: nowrap;
+}
+
+figure div img {
+   margin: 10px;
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+}
+
+figure figcaption {
+   background-color: pink;
+   font-size: 80%;
+   font-style: italic;
+   text-align: center;
+   margin-top: 5px;
+}
+
+/* Heading styles */
+
+ header h1 {
+   background-color: #A9D0F5;
+   color: #29088A;
+   color: rgba(255, 255, 255, 0.8)
+   
+   font-size: 2.0em;
+   text-align: center;
+   letter-spacing: 0.2em;
+   line-height: 1.8em; 
+   
+}
+
+/*
+nav ul li {
+	display: inline;
+	padding: 0px 20px 5px 10px;
+	height: 10px;
+	border-right: 1px solid #ccc;
+}
+
+nav ul li a {
+	color: #006;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+nav ul li a:hover {
+	color: #fff;
+}
+*/
+
+ul {
+  type : square;
+}
+
+h2 {
+  background-color: #A9D0F5;
+   color: #29088A;
+   color: rgba(255, 255, 255, 0.8)
+   width: 200 px;
+}
+
+/* Footer styles */
+
+footer address {
+   background-color: #585858;
+   color: white;
+   color: rgba(255, 255, 255, 0.8);
+   font: normal small-caps 0.8em/4em 'Times New Roman', Times, serif;
+   text-align: center;
+}
+

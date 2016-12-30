@@ -1,0 +1,109 @@
+<!DOCTYLE html>
+<html>
+<head>
+	<!--
+	HTML - T6
+	Author: Tue Le
+	Date: 3/3/2015
+	Support file: layout.css, table.css
+	-->
+
+	<meta charset = "UTF-8" />
+	<title> My FORM  </title>
+
+	<link href="layout.css" rel="stylesheet" style="text/css"  />
+	<link href="form.css" rel="stylesheet" style="text/css" />
+</head>
+
+<body>
+	<section class ="wrapper">
+	<h1> FORM</h1>
+	<div align="center"> Required values are marked by an asterisk (*) </div>
+	
+	
+	<form id="survey" name ="survey" 
+	action=""
+	method="post">
+	<fieldset id="custInfo">
+
+		<legend> Information </legend>
+
+		<label for ="name"> Name* </label>
+		<input name ="name" id ="name" 
+				placeholder ="first and last name" 
+				required ="required"/>
+				
+		<label for ="dob"> DOB </label>
+		<input name ="dob" id ="dob" 
+				placeholder ="day of birth"/>
+				
+		<label for ="address"> Address </label>
+		<input name ="address" id ="address" 
+				placeholder ="house number and street"/>
+				
+		<label for ="zipcode"> Zip code </label>
+		<input name ="zipcode" id ="zipcode" 
+				placeholder ="#####(-####)"
+				pattern="^\d{5}(\-\d{4})?$"/>
+		
+		<label for ="phone"> Phone # </label>
+		<input name ="phone" id ="phone" 
+				placeholder ="(###)-###-####"
+				pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$"/>
+		<label> Gender </label>
+		<fieldset class="optionGroup">
+		<label for="doubleCheese">Male</label>
+            <input type="checkbox" id="doubleCheese" name="doubleCheese" />
+
+            <label for="doubleSauce">Female</label>
+            <input type="checkbox" id="doubleSauce" name="doubleSauce" />
+		</fieldset>
+		
+		<label for="race">Race</label>
+            <select name="race" id="race">
+               <option value="type1">Asian</option>
+               <option value="type2">Caucasian</option>
+               <option value="type3" selected="selected">Hispanic</option>
+               <option value="type4">African American</option>
+            </select>
+				
+	</fieldset>
+	
+	<fieldset>
+		
+		<legend> Experience </legend>
+		<label>Is the form simple enough?</label>
+				<fieldset class="optionGroup">
+				   <label for for="simpleYes">Yes</label>
+				   <input type="radio" name="formSimple" id="simpleYes"
+						  value="yes" />
+	 
+				   <label for for="simpleNo">No</label>
+				   <input type="radio" name="formSimple" id="simpleNo"
+						  value="no" />
+				</fieldset>
+    
+	
+		<label>Rate the food quality<br />
+					   (0 = poor; 10 = great)</label>
+				<label class="sliderLabel">0</label>
+				<input name="quality" id="quality" type="range" value="5"
+					   min="0" max="10" step="1" />
+				<label class="sliderLabel">10</label>
+
+				<label for= "comments ">Tell us more about your experience!</label>
+				<textarea name="comments" id="comments"></textarea>
+
+     </fieldset>
+
+
+	<div align="left">
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+			
+			
+     </div>
+    </form>
+	</section>
+</body>
+</html>

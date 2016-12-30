@@ -1,0 +1,119 @@
+/*
+	CSS - T6
+	file: form.css
+	(description go here>
+	Author: Tue Le
+	Date: 3/20/2015
+*/
+
+legend {
+   background-color: #FA8258;
+   color: white;
+   padding: 3px 0px;
+   text-indent: 5px;
+   width: 100%;
+  
+}
+
+/* Label styles */
+
+label {
+   clear: left;
+   display: vertical-align;
+   float: left;
+   font-size: 0.9em;
+   margin: 7px 4% 7px 5px;
+   width: 40%;
+}
+
+/* Input control styles */
+
+input {
+   display: block;
+   float: left;
+   font-size: 0.9em;
+   margin: 7px 0px;
+   width: 50%;
+}
+
+
+
+
+fieldset {
+   background-color: brown;
+   border: 1px solid rgb(233, 69, 0);
+   float: left;
+   margin: 5px 0px 10px 2.5%;
+   width: 44%;
+}
+
+caption {
+   text-align: center;
+   
+}
+
+input[type="submit"], input[type="command"], input[type="reset"]   {
+   display: inline;
+   float: none;
+   text-align: center;
+   height: 40px;
+   width: 200px;
+   background-color:green;
+   color: yellow;
+  
+   
+}
+
+input:hover{
+	background-color: gray;
+}
+
+/* Range slider styles */
+
+label.sliderLabel {
+   clear: none;
+   font-size: 0.7em;
+   margin: 10px 0px;
+   text-align: center;
+   width: 10px
+}
+
+input[type="range"] {
+   width: 150px;
+}
+
+/* Text area styles */
+
+textarea {
+   display: block;
+   font-size: 0.9em;
+   float: left;
+   height: 140px;
+   margin: 10px 0px;
+   width: 50%;
+}
+
+/* Option button styles */
+
+fieldset.optionGroup {
+   border-width: 0px;
+}
+
+fieldset.optionGroup label {
+   display: inline;
+   float: none;
+   margin: 0px 3px 0px 0px;
+   width: 30px;
+}
+
+
+fieldset.optionGroup input {
+   display: inline;
+   float: none;
+   margin: 0px 20px 0px 0px;
+   width: 20px;
+}
+
+
+
+

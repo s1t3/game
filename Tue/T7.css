@@ -1,0 +1,60 @@
+
+
+
+body{
+background-image: url("pic.gif");
+}
+
+p{
+text-align: center;
+}
+
+section.wrapper{
+ width:1000px;
+height:1075px;
+margin-left:auto;
+margin-right:auto;
+background-color:#F79F81;
+border: 1px solid white;
+			}
+
+
+nav{
+margin-top: 10px;
+}
+
+ a { 
+ text-decoration: none;
+ background-color: brown;
+ color: white; 
+ margin-left: 10px;
+ border: 1px solid white;
+ 
+}
+
+a:hover{
+ background-color: #F4FA58;
+ color: black;
+}
+
+h1{
+text-align:center;
+color: #2E64FE;
+background-color: yellow;
+border: 1px solid black;
+
+}
+
+div {
+text-align:center;
+}
+
+iframe {
+
+border: 10px solid #848484;
+outline: 1px solid black;
+}
+
+figure div {
+   overflow: auto;
+   white-space: nowrap;

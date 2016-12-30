@@ -1,0 +1,44 @@
+/*
+	CSS - T5
+	file: table.css
+	(description go here>
+	Author: Tue Le
+	Date: 3/3/2015
+*/
+
+/*table style*/
+table{
+
+margin-left: 10px;
+margin-bottom: 10px;
+border-collapse: separate;
+border: 2px solid black;
+
+}
+
+table caption{
+font-size: 2em;
+color: purple;
+font-weight:bold;
+
+}
+
+/*table cell*/
+tr th ,td{
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+color: purple;
+font-weight: bold;
+font-size: 1.5em;
+padding: 20px 20px;
+border: 1px solid black;
+background-color:#CCFFFF;
+
+}
+
+ tr th {
+background-color:grey;
+}
+
+

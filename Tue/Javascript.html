@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<!--Assignment: Just for fun!
+			Author: Tue Le
+			Date: 4/22/2015
+		-->	
+		<meta charset=" UTF-8 ">
+		<link href="" rel="stylesheet" tyle="text/css">
+		<title> For Fun! </title>	
+
+		<style>
+			body{
+				background-image: url(a.jpg);
+				text-align: center;
+				color: blue;
+				
+				}
+			table {
+				border: 2px solid black;
+				background-color:#99FFCC;
+			}
+			td{
+				border: 1px solid black;	
+				}
+			caption{
+				font-size: 2em;
+			}
+			input{
+				background-color: black;
+				color: yellow;
+			}
+			fieldset{
+				width: 600px;
+				background-color:pink;
+				border: 1px solid black;
+				outline: 4px solid gray;
+			}
+					
+		</style>
+	</head>
+	
+	<body>
+		
+		<div align="center">
+		<fieldset>
+		<table>
+			<caption> Money Exchange</caption>
+		
+			<tr>
+				<td><label> Money(Euro) </label> </td>
+				<td><input type="number" value ="" id="Euro"/> </td>
+				
+				<td><label> Money(Dollar) </label> </td>
+				<td><input type="number" value ="" id="Dollar" /> </td>
+			</tr>
+			
+			<tr >
+				<td ><label> Money(Dollar): </label></td>
+				<td > <p id="result" ></td>
+				<td ><label> Money(Euro): </label></td>
+				<td ><p id="result2" ></td>
+			</tr>
+			
+			<tr >
+				<td colspan="4" > <div align="center"><input type="button" value="Click" onClick="myFunc()"/></div></td>
+			</tr>
+			
+		</table>
+		<p> Insert your currency to get the equivalent amount of money in Euro or Dollar</p>
+		</fieldset>
+		</div>
+		
+		<!--Javascript code-->
+		<script> 
+			function myFunc() {
+				var E = document.getElementById("Euro").value;
+				var D = document.getElementById("Dollar").value;
+				var kg = Math.round((E*1.11)*10)/10;
+				var ft = Math.round((D*0.91)*10)/10;
+			document.getElementById("result").innerHTML = kg;
+			document.getElementById("result2").innerHTML = ft;
+			}
+		</script>
+	</body>
+
+</html>
