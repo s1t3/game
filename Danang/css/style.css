@@ -1,0 +1,104 @@
+
+body{background:#ccffee; display: inline-block;}
+
+
+h1{
+	text-align:center;
+	margin-top:0;
+	padding: 20px 0 20px 0;
+	background-image: linear-gradient(to right, blue 0%,white 100%), url('tokyo1.jpg');
+	background-repeat: no-repeat;
+	
+
+	
+	}
+	
+hr{width:85%}
+
+a{text-decoration: none;}
+
+a.rollover img {
+	width: 150px;
+	height: 150px;
+}
+
+a.rollover:hover > img {
+	
+	
+	height: 240px;
+	width: 240px;
+
+}
+
+#spec{width: 85%;
+		margin:auto;
+	background:#99ccff;
+	padding: 7px 0 0 0;
+	}
+	
+#nav {
+    line-height:30px;
+    background-image:url(tokyo1.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+    height:500px;
+
+	padding:5px;
+	font-weight:bold;
+}
+
+.dropdown  a{
+	display: inline;
+	border: 1px solid black;
+	background-color: yellow;
+	font-weight: bold;
+	text-align: center;
+	margin: 3px;
+	border-radius:5px;
+	padding: 5px 20px 5px 20px;
+}
+  
+ h3{
+	color: white;
+	background-color:red;
+	margin: 0;
+	padding-left: 10px;
+	border: 1px solid black;
+	border-radius: 25px;
+	text-align:center;
+}
+
+#section {
+  
+    padding:10px;	
+	
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+	
+
+footer {
+    background-color:black;
+    color:green;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+
+.dropdown{float:right;
+	padding-top: 2px;
+
+}
+
+.dropdown-menu{background:black;}
+
+#top{padding-left:20px;
+
+}
+
+.container-fuild {background:blue;}
+
+
+
+	

@@ -1,0 +1,41 @@
+<!Doctype html>
+<html>
+	<head> <title> MULTIPLICATION </title>
+	<link  rel="stylesheet" href="css\style.css" type="text/css">
+	</head>
+
+
+	<body>
+
+	<h1> MULTIPLICATION TABLE</h1>
+
+		<div id="image">
+			<script type="text/javascript">
+
+
+				function multi(){
+
+					for (x=1;x<11;x++){
+
+						document.write("<div>");
+						for (y=1;y<11;y++){
+
+							var product = x* y;
+							document.write (x + " X " + y +" = " + product +"<br>");
+						}
+
+						document.write("</div>");
+					}
+					
+				}
+
+				multi();
+				
+			</script>
+
+		</div>
+
+	</body>
+ 
+
+</html>

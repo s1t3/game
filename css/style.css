@@ -1,0 +1,29 @@
+
+body{
+	background-image: url('img.jpg');
+	background-size:100%;
+ }
+
+
+h1{
+	text-align:center;
+	margin-top:0;
+	padding: 20px 0 20px 0;
+	background-image: linear-gradient(to right, blue 0%,white 100%), url('tokyo1.jpg');
+	background-repeat: no-repeat;
+	
+	}
+
+
+	
+div{ float:left;
+	
+	margin-left:35px;
+	display: inline;
+
+	}
+
+#wrapper{
+	background-color: blue;
+
+}

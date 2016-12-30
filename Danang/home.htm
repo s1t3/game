@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>  
+
+		<title>HomePage </title>
+
+		<meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- BootStrap -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		
+		<link  rel="stylesheet" href="style.css" type="text/css">
+		<link  rel="stylesheet" href="home.css" type="text/css">
+
+
+
+		<script>
+			function myFunction(){
+				var x;
+
+			 	x = document.getElementById("test").value ;
+			 
+
+				document.getElementById("formid").action = x;
+
+
+			}
+
+
+		</script>	
+		
+
+		
+	</head>
+
+	<body>
+
+		<div>
+			<h1> HOMEPAGE </h1> 
+		</div>
+
+		
+		<div id="left">
+			<form role="form"  action=""  method="post" id="formid" target="_blank">
+				    <div class="form-group">
+				      <label for="comment">Search Engine</label>
+				      <textarea class="form-control" rows="1" id="test" ></textarea>
+				    </div>
+			  
+				  
+				  <button  type="submit" onclick="myFunction()" >Submit</button>
+				  
+			</form> 
+
+			
+			
+
+		</div>
+
+
+		<div id="panel">
+
+				<div class="dropdown">
+							<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Attractions
+							<span class="caret"></span></button>
+							<ul class="dropdown-menu">
+							<li><a href="#">Mui Ne</a></li>
+							<li><a href="#">Phu Quoc</a></li>
+							<li><a href="#">Hoi An</a></li>
+							<li><a href="#">Da Nang</a></li>
+					</ul>
+				</div>
+		</div>
+
+		
+
+		
+
+	</body>
+
+</html> 
